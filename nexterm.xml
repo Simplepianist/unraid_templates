@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1725309394</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Buy me a Coffee</DonateText>
+  <DonateLink>https://paypal.me/simplepianist</DonateLink>
   <Requires/>
   <Config Name="Datapath" Target="/app/data" Default="/mnt/user/appdata/nexterm" Mode="rw" Description="Path where Container data is stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nexterm</Config>
   <Config Name="Port" Target="6989" Default="6989" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6989</Config>
