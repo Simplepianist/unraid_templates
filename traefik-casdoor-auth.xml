@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>traefik-casdoor-auth</Name>
+  <Repository>ghcr.io/lostb1t/traefik-casdoor-auth</Repository>
+  <Registry>https://github.com/users/lostb1t/packages/container/package/traefik-casdoor-auth</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/174247-support-simplebox-docker-templates/#comment-1460603</Support>
+  <Project>https://github.com/lostb1t/traefik-casdoor-auth</Project>
+  <Overview/>
+  <Category>Security: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1731761707</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Connection" Target="9999" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9999</Config>
+  <Config Name="CASDOOR_ENDPOINT" Target="CASDOOR_ENDPOINT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="CASDOOR_ClIENT_ID" Target="CASDOOR_ClIENT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="CASDOOR_CLIENT_SECRET" Target="CASDOOR_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="CASDOOR_ORGANIZATION" Target="CASDOOR_ORGANIZATION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="CASDOOR_APPLICATION" Target="CASDOOR_APPLICATION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="PLUGIN_ENDPOINT" Target="PLUGIN_ENDPOINT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+</Container>
