@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>traefik-casdoor-auth</Name>
-  <Repository>ghcr.io/lostb1t/traefik-casdoor-auth</Repository>
-  <Registry>https://github.com/users/lostb1t/packages/container/package/traefik-casdoor-auth</Registry>
+  <Repository>zoios/traefik-casdoor-auth</Repository>
+  <Registry>https://hub.docker.com/r/zoios/traefik-casdoor-auth/tags</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/174247-support-simplebox-docker-templates/#comment-1460603</Support>
-  <Project>https://github.com/lostb1t/traefik-casdoor-auth</Project>
+  <Project>https://hub.docker.com/r/zoios/traefik-casdoor-auth</Project>
   <Overview/>
   <Category>Security: Status:Stable</Category>
   <WebUI/>
