@@ -18,8 +18,7 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1731761707</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateLink>https://paypal.me/simplepianist</DonateLink>
   <Requires/>
   <Config Name="Connection" Target="9999" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9999</Config>
   <Config Name="CASDOOR_ENDPOINT" Target="CASDOOR_ENDPOINT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
