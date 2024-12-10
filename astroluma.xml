@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>AstroLuma</Name>
+  <Repository>sanjeet990/astroluma:latest</Repository>
+  <Registry>https://hub.docker.com/r/sanjeet990/astroluma</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/174247-support-simplebox-docker-templates</Support>
+  <Project>https://getastroluma.com</Project>
+  <Overview/>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://getastroluma.com/img/logo.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1733817800</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Node Enviroment" Target="NODE_ENV" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">production</Config>
+  <Config Name="Secret Key" Target="SECRET_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">a2c5f9a8b2d7e1a7f2c9c8d9b5f7a3d5</Config>
+  <Config Name="Mongo DB Url" Target="MONGODB_URI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mongodb://localhost:27017/astroluma</Config>
+  <Config Name="Data" Target="/app/storage/uploads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/astroluma</Config>
+</Container>
