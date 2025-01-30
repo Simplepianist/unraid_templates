@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/tquizzle/Docker-xml/master/img/avatar.png</Icon>
+  <Profile>
+    Just a Simple Guy who wants to make some things
+  </Profile>
+  <DonateLink>https://paypal.me/simplepianist</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+  <WebPage>https://github.com/Simplepianist</WebPage>
+  <Forum></Forum>
+</Maintainer>
