@@ -8,8 +8,11 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/174247-support-simplebox-docker-templates/</Support>
-  <Project>https://github.com/gnmyt/Nexterm</Project>
-  <Overview/>
+  <Project>https://docs.nexterm.dev/</Project>
+  <Overview>Nexterm&#xD;
+Server management&#xD;
+&#xD;
+The open-source server management software for SSH, VNC &amp;amp; RDP</Overview>
   <Category>Cloud: Security: Network:Other Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:6989]</WebUI>
   <TemplateURL/>
