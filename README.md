@@ -23,4 +23,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or support, please open an issue in the repository.
+For questions or support, please open an issue in the repository or reach out via the [Community Support Page](https://forums.unraid.net/topic/174247-support-simplebox-docker-templates/).
