@@ -10,13 +10,8 @@ The templates in this repository are designed to help users quickly set up and c
 
 To use these templates, follow these steps:
 
-1. Clone the repository to your local machine:
-    ```sh
-    git clone https://github.com/yourusername/unraid_templates.git
-    ```
-2. Copy the desired template files to your Unraid server's `config/plugins/community.applications/templates-user` directory.
-3. Access the Unraid web interface and navigate to the Apps tab.
-4. Search for the application or service you want to install and select the appropriate template from the list.
+1. Access the Unraid web interface and navigate to the Apps tab.
+2. Search for the application or service you want to install and select the appropriate template from the list.
 
 ## Contributing
 
