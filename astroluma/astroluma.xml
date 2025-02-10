@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1733817800</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Buy me a Coffee</DonateText>
+  <DonateLink>https://paypal.me/simplepianist</DonateLink>
   <Requires/>
   <Config Name="Port" Target="PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">8000</Config>
   <Config Name="Node Enviroment" Target="NODE_ENV" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">production</Config>
