@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Coolify</Name>
+  <Repository>ghcr.io/coollabsio/coolify</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>Productivity: Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1750783357</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Coolify Data" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Coolify SSH-Keys" Target="/var/www/html/storage/app/ssh/keys/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="App-Name" Target="APP_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="PHP-Env" Target="APP_ENV" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
+  <Config Name="Database Table" Target="DB_DATABASE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">coolify</Config>
+  <Config Name="Database Username" Target="DB_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">root</Config>
+  <Config Name="Database Password" Target="DB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">w#tZpapFhJ&amp;mEY2c%a1EbpeAXW%Zf4vCgky=W3</Config>
+  <Config Name="Database Host" Target="DB_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">192.168.178.93</Config>
+  <Config Name="Database Type" Target="DB_CONNECTION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">pgsql</Config>
+  <Config Name="Database Port" Target="DB_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">5432</Config>
+  <Config Name="Redis Host" Target="REDIS_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">192.168.178.93</Config>
+  <Config Name="SSL enabled" Target="SSL_MODE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">off</Config>
+  <TailscaleStateDir/>
+</Container>
